@@ -1,4 +1,4 @@
-const API_BASE = 'http://localhost:8000';
+const API_BASE = 'https://splitwise-onpc.onrender.com';
 
 class ApiService {
   async request(endpoint, options = {}) {
